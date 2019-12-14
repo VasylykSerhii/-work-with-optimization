@@ -1,12 +1,3 @@
-window.addEventListener('DOMContentLoaded', function () {
-  'use strict';
-
-
-  $('.review-slider').slick({
-    dots: false,
-    nextArrow: '.arrow-right',
-    prevArrow: '.arrow-left',
-  });
 
 
   // 2. This code loads the IFrame Player API code asynchronously.
@@ -50,4 +41,14 @@ window.addEventListener('DOMContentLoaded', function () {
     player.stopVideo();
   }
 
-});
+
+  
+
+
+  $('.review-slider').slick({
+    dots: false,
+    nextArrow: '.arrow-right',
+    prevArrow: '.arrow-left',
+  });
+
+
